@@ -4,9 +4,9 @@
 #include <pthread.h>
 
 // filepath
-#define CHAT_DIR "/tmp/chat"
-#define CLIENTS_DIR "/tmp/chat/clients"
-#define SOCKET_PATH "/tmp/chat/server.sock"
+#define CHAT_DIR "./tmp/chat"
+#define CLIENTS_DIR "./tmp/chat/clients"
+#define SOCKET_PATH "./tmp/chat/server.sock"
 
 // buffer size
 #define MAX_CLIENTS 50
